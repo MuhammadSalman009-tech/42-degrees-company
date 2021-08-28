@@ -1,0 +1,40 @@
+.hero {
+    width: 100vw;
+}
+.hero-background {
+    width: 100%;
+}
+.hero-background img {
+    width: 100%;
+    opacity: 0.1;
+}
+.hero-content {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.hero-section1 {
+    padding: 20px;
+}
+.hero-section1 .title {
+    color: #814220;
+    font-weight: 700;
+}
+.hero-section1 .heading {
+    font-size: 58px;
+    font-weight: 900;
+}
+.hero-section1 .sub-title {
+    font-style: italic;
+    color: #aaa;
+    font-size: 22px;
+}
+.hero-section2 {
+    padding: 20px;
+}
+.hero-section2 img {
+    width: 100%;
+    border-radius: 20px;
+}

@@ -1,0 +1,87 @@
+* {
+    overflow-x: hidden;
+}
+/* navbar styling */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.menu-bars {
+    width: 28px;
+}
+.menu-bars img {
+    width: 100%;
+    cursor: pointer;
+}
+.logo {
+    width: 120px;
+}
+.logo img {
+    width: 100%;
+}
+.flags {
+    display: flex;
+    width: 64px;
+    justify-content: space-between;
+}
+.australia-flag,
+.spain-flag {
+    width: 28px;
+}
+.spain-flag img {
+    width: 100%;
+}
+.australia-flag img {
+    width: 100%;
+}
+
+/* drawer styling */
+.offcanvas {
+    max-width: 280px !important;
+}
+.offcanvas-body,
+.offcanvas-header {
+    width: 100%;
+}
+.offcanvas-header {
+    margin-top: 40px;
+}
+.offcanvas-body {
+    padding: 0px !important;
+}
+.closeNav-btn {
+    width: 20px;
+    margin-top: -10px;
+}
+.closeNav-btn img {
+    width: 100%;
+    cursor: pointer;
+}
+ul.nav-dropdown {
+    margin-top: 20px;
+    padding: 0px;
+}
+ul.nav-dropdown li {
+    list-style: none;
+}
+ul.nav-dropdown li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 1rem;
+}
+
+ul.nav-dropdown li a:hover {
+    background-color: #f9f9f9;
+}
