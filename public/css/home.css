@@ -38,3 +38,108 @@
     width: 100%;
     border-radius: 20px;
 }
+/* contact-form */
+.contact-form {
+    background-color: #fff4eb;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+.contact-form label {
+    font-size: 22px;
+}
+.contact-form input[type="text"],
+input[type="email"] {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 20px;
+    padding: 16px;
+}
+.contact-form input[type="text"]:focus,
+input[type="email"]:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.contact-form textarea {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 20px;
+    resize: none;
+}
+.contact-form textarea:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact-info .custom-btn span {
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.contact-info .custom-btn button {
+    background-color: #814220;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 3px 44px;
+    border-radius: 30px;
+}
+.contact-info .email,
+.contact-info .phone {
+    display: flex;
+    align-items: center;
+}
+.contact-info .email .img,
+.contact-info .phone .img {
+    width: 26px;
+}
+.contact-info .email .img img,
+.contact-info .phone .img img {
+    width: 100%;
+}
+.contact-info .email .text,
+.contact-info .phone .text {
+    font-size: 22px;
+}
+/* products-styling */
+.products-title {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.product .content {
+    background-color: #fff4eb;
+    display: flex;
+    width: 58%;
+    height: 150px;
+    flex-direction: column;
+    padding: 30px 20px;
+    margin: auto 0px;
+    border-radius: 20px;
+}
+.product .content .type {
+    color: #814220;
+    text-align: start;
+}
+.product .content .title {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: start;
+}
+.product .img {
+    width: 35%;
+}
+.product .img img {
+    width: 100%;
+}

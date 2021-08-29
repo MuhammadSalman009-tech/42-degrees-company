@@ -30,7 +30,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('slick/slick-theme.css') }}"/>
     </head>
     <body>
-    <nav class="top-nav">
+    <nav class="top-nav" id="top-nav">
         <div class="menu-bars"><img src="{{ url('/images/menu-icon.png') }}" alt="menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"></div>
         <div class="logo"><img src="{{ url('/images/logo.png') }}" alt="logo"></div>
         <div class="flags">
@@ -63,8 +63,58 @@
         </div>
 
 
+        <div class="custom-container">
+            <footer>    
+                <div class="row mt-5">
+                    <div class="col-md-3 offset-1">
+                        <div class="section1">
+                        <div class="logo"><img src="{{ url('/images/footer-logo.png') }}" alt="logo"></div>
+                        <div class="copyright">
+                            Copyright 2021 42 Degrees
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="navigation">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Instructions</a></li>
+                            <li><a href="">Locations</a></li>
+                            <li><a href="">Distributions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="navigation">
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Privacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="address">
+                            <p class="title">Address</p>
+                            <p>Calle Nitrogeno 8 <br>47012 Valladolid, Spain</p>
+                        </div>
+                        <div class="social-links">
+                            <a href=""><img src="{{ url('/images/facebook-icon.png') }}" alt="facebook"></a>
+                            <a href=""><img src="{{ url('/images/linkedin-icon.png') }}" alt="linkedin"></a>
+                            <a href=""><img src="{{ url('/images/instagram-icon.png') }}" alt="instagram"></a>
+                            <a href=""><img src="{{ url('/images/youtube-icon.png') }}" alt="youtube"></a>
+                            <a href=""><img src="{{ url('/images/mail-icon.png') }}" alt="mail"></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="{{ asset('slick/slick.min.js') }}"></script>
+        <script>
+            $(window).scroll(function(){
+	         $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+            });
+        </script>
     </body>
 </html>
