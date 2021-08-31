@@ -16,7 +16,11 @@
         <!-- custom-styles -->
         <link rel="stylesheet" type= "text/css " href="{{ asset('css/app.css') }}">
         <!-- home-styles -->
-        <link rel="stylesheet" type= "text/css " href="{{ url('/css/home.css') }}">
+        <link rel="stylesheet" type= "text/css " href="{{ asset('css/home.css') }}">
+        <!-- about-styles -->
+        <link rel="stylesheet" type= "text/css " href="{{ asset('css/about.css') }}">
+        <!-- distribution-styles -->
+        <link rel="stylesheet" type= "text/css " href="{{ asset('css/distribution.css') }}">
         <!-- bootstrap cdn -->
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -57,10 +61,7 @@
         </ul>
     </div>
     </div>
-        @yield("hero")
-        <div class="container">
         @yield('content')
-        </div>
 
 
         <div class="custom-container">

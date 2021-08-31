@@ -1,0 +1,77 @@
+.distribution {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-distributor {
+    background-color: #fff4eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    max-height: 170px;
+}
+.login-distributor .text {
+    font-size: 18px;
+    font-weight: 500;
+}
+.login-distributor a {
+    background-color: #fff;
+    display: inline-block;
+    padding: 3px 40px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+.distribution-img {
+    width: 80%;
+    border-radius: 20px;
+}
+.distribution-img img {
+    width: 100%;
+}
+.distribution-paragraph {
+    display: flex;
+    justify-content: center;
+}
+.distribution-paragraph p {
+    text-align: center;
+    width: 800px !important;
+}
+/* sector styling */
+.sector {
+    position: relative;
+}
+.sector .img {
+    width: 100%;
+    max-height: 220px;
+    border-radius: 20px;
+    background-color: black;
+}
+.sector .img img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.sector .heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sector .heading h1 {
+    color: #fff;
+    font-size: 58px;
+    font-weight: 900;
+}

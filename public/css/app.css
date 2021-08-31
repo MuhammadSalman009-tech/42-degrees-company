@@ -1,6 +1,12 @@
 * {
     overflow-x: hidden;
 }
+.main-heading {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
 /* navbar styling */
 .top-nav {
     display: flex;
@@ -92,6 +98,10 @@ ul.nav-dropdown li a:hover {
 /* footer */
 .custom-container {
     max-width: 1200px;
+    margin: 30px auto 0px auto;
+}
+.custom-container2 {
+    max-width: 1000px;
     margin: 30px auto 0px auto;
 }
 footer {

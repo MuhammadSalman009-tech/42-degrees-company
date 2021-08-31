@@ -1,0 +1,128 @@
+.container3 {
+    width: 100%;
+    background-color: #814220;
+    position: relative;
+    height: 360px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.container3 .img {
+    width: 100%;
+    height: 100%;
+}
+.container3 .img img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+.container3 .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container3 .body .content2 {
+    width: 1000px !important;
+}
+.container3 .body .content {
+    width: 600px;
+}
+.container3 .body .content h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 56px;
+}
+.container3 .body .content p {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+/* history-section styling */
+.history-content .history-heading {
+    font-size: 28px;
+    font-weight: 700;
+}
+.history-content p {
+    font-size: 22px;
+}
+.history-img {
+    width: 100%;
+    max-height: 220px;
+    border-radius: 20px;
+}
+.history-img img {
+    width: 100%;
+}
+p {
+    font-size: 22px;
+}
+/* team-section styling */
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team .img {
+    width: 65%;
+    height: 370px;
+    border-radius: 20px;
+}
+.team .img img {
+    width: 100%;
+    height: 100%;
+}
+.team .content .heading {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 40px 0px;
+    text-align: center;
+}
+.team .content p {
+    text-align: center;
+}
+/* machinary-section styling */
+.machinary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.machinary .img {
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+}
+.machinary .img img {
+    width: 100%;
+    height: 100%;
+}
+.machinary .content .heading {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 40px 0px;
+    text-align: center;
+}
+.machinary .content p {
+    text-align: center;
+}
+/* emergency relief-section styling */
+.emergency-content .emergency-heading {
+    font-size: 28px;
+    font-weight: 700;
+}
+.emergency-content p {
+    font-size: 22px;
+}
+.emergency-img {
+    width: 100%;
+    max-height: 260px;
+    border-radius: 20px;
+}
+.emergency-img img {
+    width: 100%;
+    height: 100%;
+}
