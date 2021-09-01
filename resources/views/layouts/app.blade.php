@@ -56,8 +56,9 @@
     </div>
     <div class="offcanvas-body">
         <ul class="nav-dropdown">
-            <li><a href="/Home">Home</a></li>
-            <li><a href="/Home">Home</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about-us">About</a></li>
+            <li><a href="/our-distribution">Distribution</a></li>
         </ul>
     </div>
     </div>
@@ -77,16 +78,16 @@
                     </div>
                     <div class="col-md-2">
                         <ul class="navigation">
-                            <li><a href="">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="">Products</a></li>
                             <li><a href="">Instructions</a></li>
                             <li><a href="">Locations</a></li>
-                            <li><a href="">Distributions</a></li>
+                            <li><a href="/our-distributions">Distributions</a></li>
                         </ul>
                     </div>
                     <div class="col-md-2">
                         <ul class="navigation">
-                            <li><a href="">About Us</a></li>
+                            <li><a href="/about-us">About Us</a></li>
                             <li><a href="">Shop</a></li>
                             <li><a href="">FAQ</a></li>
                             <li><a href="">Blog</a></li>

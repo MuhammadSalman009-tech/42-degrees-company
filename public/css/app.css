@@ -7,6 +7,12 @@
     font-weight: 700;
     text-align: center;
 }
+.heading-text {
+    margin: 10px auto 0pc auto;
+    font-size: 22px;
+    text-align: center;
+    max-width: 1000px;
+}
 /* navbar styling */
 .top-nav {
     display: flex;
@@ -119,6 +125,8 @@ footer {
 }
 .address p {
     color: #fff;
+    font-size: 18px;
+    font-weight: 400;
 }
 .social-links {
     display: flex;

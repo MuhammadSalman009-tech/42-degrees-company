@@ -51,7 +51,7 @@
 }
 .sector .img {
     width: 100%;
-    max-height: 220px;
+    height: 220px;
     border-radius: 20px;
     background-color: black;
 }
