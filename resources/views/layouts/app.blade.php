@@ -21,6 +21,10 @@
         <link rel="stylesheet" type= "text/css " href="{{ asset('css/about.css') }}">
         <!-- distribution-styles -->
         <link rel="stylesheet" type= "text/css " href="{{ asset('css/distribution.css') }}">
+        <!-- locations-styles -->
+        <link rel="stylesheet" type= "text/css " href="{{ asset('css/locations.css') }}">
+        <!-- instructions-styles -->
+        <link rel="stylesheet" type= "text/css " href="{{ asset('css/instructions.css') }}">
         <!-- bootstrap cdn -->
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -28,10 +32,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
         <!-- fontawesome -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-        <!-- slick slider -->
-        <link rel="stylesheet" type="text/css" href="{{ asset('slick/slick.css') }}"/>
-        <link rel="stylesheet" type="text/css" href="{{ asset('slick/slick-theme.css') }}"/>
     </head>
     <body>
     <nav class="top-nav" id="top-nav">
@@ -59,6 +59,8 @@
             <li><a href="/">Home</a></li>
             <li><a href="/about-us">About</a></li>
             <li><a href="/our-distribution">Distribution</a></li>
+            <li><a href="/locations">Locations</a></li>
+            <li><a href="/instructions">Instructions</a></li>
         </ul>
     </div>
     </div>

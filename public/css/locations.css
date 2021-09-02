@@ -1,0 +1,30 @@
+.map-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.map-container .map {
+    width: 100%;
+}
+.map-container .map-btn {
+    position: absolute;
+    margin-bottom: 20px;
+}
+.map-btn a {
+    background-color: #fff;
+    display: inline-block;
+    padding: 3px 40px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+.country {
+    font-size: 22px;
+    font-weight: 700;
+}

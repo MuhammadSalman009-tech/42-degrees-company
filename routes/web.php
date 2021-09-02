@@ -22,3 +22,10 @@ Route::get('/about-us', function () {
 Route::get('/our-distribution', function () {
     return view('distribution');
 });
+Route::get('/locations', function () {
+    $countries=array("Austria","Cananda","Croatia","Slovenia","Denmark","Faroe Islands","Germany","Spain","Greenland","Ireland","israel","Ukraine","Kuwait","Norway","Russia","United Kingdom");
+    return view('locations')->with('countries',$countries);
+});
+Route::get('/instructions', function () {
+    return view('instructions');
+});
